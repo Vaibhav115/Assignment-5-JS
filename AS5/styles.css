@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+  }
+  body {
+    background-color: #54c3ef;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  h1 {
+    font-family: "Caveat Brush", cursive;
+    color: #fad744;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    text-shadow: 2px 4px 1px #2b3252;
+  }
+  #container {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  #parent {
+    background-color: #2b3252;
+    color: #fad744;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  #btn {
+    display: block;
+  }
+  input {
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .labels {
+    cursor: pointer;
+  }
+  #btn {
+    background-color: #fad744;
+    color: #2b3252;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  .question-section {
+    border-bottom: 1px solid #fad744;
+    padding: 30px 0;
+  }
+  #result {
+    position: sticky;
+    top: 50px;
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 30px;
+    box-sizing: border-box;
+  }
+  #result span {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #result h2 {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 40px;
+    }
+    #container {
+      width: 90%;
+    }
+    #result {
+      padding: 20px 10px;
+      height: 100px;
+    }
+    #result span {
+      font-size: 20px;
+    }
+    #result h2 {
+      font-size: 18px;
+    }
+  }
